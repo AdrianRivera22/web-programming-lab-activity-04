@@ -32,7 +32,6 @@
         <option value="Fiction" <?= ($genre_filter == "Fiction") ? "selected" : "" ?>>Fiction</option>
     </select>
      <input type="submit" value="Filter">
-    
 </form>
 
 <a href="addbook.php">Add book</a>
@@ -59,9 +58,7 @@
    <?php 
     } 
     ?>
-  
-</table>
-    
+    </table>   
 </body>
-
 </html>
+
