@@ -23,7 +23,7 @@
 <form action="" method="get">
     <label for="search">Search Book: </label>
     <input type="search" name="search" id="search" value="<?= $search ?>">
-    <input type="submit" value="Search">
+    <input type="submit" value="Search"> <br>
     <label for="genre_filter">Filter By Genre:</label>
     <select name="genre_filter" id="genre_filter">
         <option value="">--Select Genre--</option>
@@ -63,4 +63,5 @@
 </table>
     
 </body>
+
 </html>
